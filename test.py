@@ -1,5 +1,12 @@
-import socket
+from selenium import webdriver
 
-url = "velalarengg.ac.in"   # The Test Subject
+drive = webdriver.Chrome(
+    executable_path="")  # your web browser I am using  chromedriver ("note: we need add the script detect the
+# default browser ")
+drive.get("*********")  # need to enter o your  site url
 
-print("IP:", socket.gethostbyname(url))
+inp = drive.find_element(By.CLASS_NAME, "text_field")  # this is temp we need to fond the name of class
+
+print(inp)
+
+drive.close()
