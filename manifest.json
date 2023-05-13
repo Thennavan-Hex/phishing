@@ -1,0 +1,15 @@
+{
+  "name": "Link fetcher",
+  "version": "1.0",
+  "description": "to collect all links",
+  "permissions": [
+    "tabs",
+    "<all_urls>"
+  ],
+  "browser_action": {
+      "default_title": "Link Collector",
+      "default_icon": "icon.png",
+      "default_popup": "popup.html"
+  },
+  "manifest_version": 2
+}

@@ -1,0 +1,86 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	font-size:12px;
+	color:#666;
+
+	background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#EEE), to(#DDD));
+
+	text-shadow:1px 1px 0 white;
+	font-family:Arial, Helvetica, sans-serif;
+	overflow-x:hidden;
+}
+
+.export-button {
+	-moz-box-shadow:inset 0px 1px 0px 0px #9acc85;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #9acc85;
+	box-shadow:inset 0px 1px 0px 0px #9acc85;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #74ad5a), color-stop(1, #68a54b));
+	background:-moz-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+	background:-webkit-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+	background:-o-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+	background:-ms-linear-gradient(top, #74ad5a 5%, #68a54b 100%);
+	background:linear-gradient(to bottom, #74ad5a 5%, #68a54b 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#74ad5a', endColorstr='#68a54b',GradientType=0);
+	background-color:#74ad5a;
+	border:1px solid #3b6e22;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:12px;
+	font-weight:bold;
+	padding:10px 30px;
+	text-decoration:none;
+	margin: 5px;
+}
+.export-button:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #68a54b), color-stop(1, #74ad5a));
+	background:-moz-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+	background:-webkit-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+	background:-o-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+	background:-ms-linear-gradient(top, #68a54b 5%, #74ad5a 100%);
+	background:linear-gradient(to bottom, #68a54b 5%, #74ad5a 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#68a54b', endColorstr='#74ad5a',GradientType=0);
+	background-color:#68a54b;
+}
+.export-button:active {
+	position:relative;
+	top:1px;
+}
+
+#filterInput {
+    background-image: url('searchicon.png');
+    background-position: 10px 12px; 
+    background-repeat: no-repeat; 
+    width: 80%;
+    font-size: 16px; 
+    padding: 12px 20px 12px 40px; 
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+}
+
+#linkTable {
+    border-collapse: collapse; 
+    width: 80%; 
+    border: 1px solid #ddd; 
+    font-size: 18px; 
+}
+
+#linkTable th, #linkTable td {
+    text-align: left;
+    padding: 12px; 
+}
+
+#linkTable tr {
+
+    border-bottom: 1px solid #ddd;
+}
+
+#linkTable tr.header, #linkTable tr:hover {
+
+    background-color: #f1f1f1;
+}
