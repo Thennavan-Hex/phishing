@@ -1,38 +1,31 @@
-# If you have interest to run the project try this steps
-<br>
-<h5> 1. First clone or download the project</h5>
-<br>
-  
-  ![Screenshot (19)](https://github.com/Thennavan-Hex/Hackathon2023/assets/96973721/05cb990d-b691-4fd2-8e98-352b9da4f910)
- <br>
- <h5>2.After download go to your browser and search this url :</h5>
-   <br>
-   <br>
-   If Chrome search this:
-   " chrome://extensions/ "
-   <br>
-   <br>
-   <br>
-   If Firefox search this:
-   " https://addons.mozilla.org/ "
-   <br>
-   <br>
-   <h5>click Developer mode on </h5>
-   <br>
-   
-![Screenshot (22)](https://github.com/Thennavan-Hex/Hackathon2023/assets/96973721/9e98fa75-acd8-41fb-a347-2cf28b881c5e)
+# Phishing Website Detection by Machine Learning Techniques
 
-<h5>4. Click Load Unpacked  and select your project folder .</h5>
-<br>
+## Objective
+Phishing websites pose a significant threat in today's digital landscape, often masquerading as legitimate entities to deceive users. The aim of this project is to employ machine learning models and deep neural networks to predict phishing websites effectively.
 
-![Screenshot (24)](https://github.com/Thennavan-Hex/Hackathon2023/assets/96973721/7f828b67-645a-40ed-81d9-a1b2401ccb9b)
+## Data Collection
+- Phishing URLs are sourced from the open-source service , which provides regularly updated datasets in various formats such as CSV and JSON.
+- Legitimate URLs are obtained from the open datasets provided by the University of New Brunswick. Specifically, the benign URL dataset is utilized for this project.
 
-<h5>5. If you get like this your extension is added sucessfully..</h5>
-<br>
+## Feature Extraction
+Features are extracted from the URL data across three categories:
+1. **Address Bar-based Features:** Extracting features related to the URL itself.
+2. **Domain-based Features:** Incorporating features derived from the domain of the URL.
+3. **HTML & JavaScript-based Features:** Extracting features from the HTML and JavaScript content of the website.
 
+## Models & Training
+The dataset is split into 80-20 for training and testing purposes. Supervised machine learning models considered for training include:
+- Decision Tree
+- Random Forest
+- Multilayer Perceptrons
+- XGBoost
+- Autoencoder Neural Network
+- Support Vector Machines
 
+## Presentation
+A concise video presentation of the project is available, accompanied by presentation slides.
 
-![Screenshot (23)](https://github.com/Thennavan-Hex/Hackathon2023/assets/96973721/a66a6773-338f-4e81-a9ec-8947ac9f3d1e)
+## End Results
+The XGBoost Classifier exhibited the highest performance among the models. Future developments of this project may include creating a browser extension for real-time phishing website detection and developing a user-friendly GUI application for predicting the nature of URLs.
 
-
-<br>
+This project utilizes machine learning techniques to combat phishing attacks effectively. If you require any additional clarification, feel free to reach out.
